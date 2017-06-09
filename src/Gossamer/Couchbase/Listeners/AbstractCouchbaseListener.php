@@ -16,7 +16,7 @@
 
 namespace Gossamer\Couchbase\Listeners;
 
-use core\eventlisteners\AbstractListener;
+use Gossamer\Core\EventListeners\AbstractListener;
 use Gossamer\Couchbase\Documents\Document;
 use Gossamer\Couchbase\Exceptions\ConfigurationNotFoundException;
 use Gossamer\Couchbase\Exceptions\KeyNotFoundException;
