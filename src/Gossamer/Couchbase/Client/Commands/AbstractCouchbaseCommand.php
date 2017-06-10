@@ -17,7 +17,7 @@
 namespace Gossamer\Couchbase\Client\Commands;
 
 
-use Gossamer\Core\Commands\AbstractCommand;
+use Gossamer\Core\CommandFactory\AbstractCommand;
 use Gossamer\Core\Commands\POST;
 use Gossamer\Core\Commands\URI;
 use Gossamer\Core\Http\HTTPRequest;
