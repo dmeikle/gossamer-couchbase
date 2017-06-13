@@ -22,16 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CouchbaseDBConnectionTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gossamer/Couchbase/Tests/Gossamer/Couchbase/Connections/CouchbaseDBConnectionTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BaseTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/BaseTest.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractCouchbaseCommand.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractCouchbaseCommand.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/AbstractCouchbaseCommand.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -82,6 +72,16 @@
               <folding>
                 <element signature="e#395#444#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CouchbaseMasterGetCommand.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/CouchbaseMasterGetCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,8 +109,8 @@
       <file leaf-file-name="CouchbaseMasterListCommand.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/CouchbaseMasterListCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="102">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="58" />
               <folding>
                 <marker date="1497325806009" expanded="true" signature="1094:1256" placeholder="SELECT count... ${$this-&gt;getMasterBucketName()}" />
               </folding>
@@ -143,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/AbstractCouchbaseCommand.php" />
         <option value="$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/BaseBucketCommand.php" />
         <option value="$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/CouchbaseMasterListCommand.php" />
+        <option value="$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/CouchbaseMasterGetCommand.php" />
       </list>
     </option>
   </component>
@@ -445,12 +446,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496901803644</updated>
-      <workItem from="1496901804897" duration="10321000" />
+      <workItem from="1496901804897" duration="10638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10321000" />
+    <option name="totallyTimeSpent" value="10638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -525,14 +526,6 @@
           <folding>
             <element signature="e#395#437#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/CouchbaseMasterGetCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,16 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/CouchbaseMasterListCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <marker date="1497325806009" expanded="true" signature="1094:1256" placeholder="SELECT count... ${$this-&gt;getMasterBucketName()}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/BaseBucketCommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -743,6 +726,24 @@
           <folding>
             <element signature="e#395#444#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/CouchbaseMasterListCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="58" />
+          <folding>
+            <marker date="1497325806009" expanded="true" signature="1094:1256" placeholder="SELECT count... ${$this-&gt;getMasterBucketName()}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gossamer/Couchbase/Client/Commands/CouchbaseMasterGetCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

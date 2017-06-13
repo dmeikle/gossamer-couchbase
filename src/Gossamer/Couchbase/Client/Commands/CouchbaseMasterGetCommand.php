@@ -9,7 +9,7 @@
 namespace Gossamer\Couchbase\Client\Commands;
 
 
-class CouchbaseMasterGetCommand extends AbstractCouchbaseGetCommand
+class CouchbaseMasterGetCommand extends BaseBucketCommand
 {
     public function execute($params = array(), $request = array())
     {
