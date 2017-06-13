@@ -19,7 +19,7 @@ class CouchbaseMasterGetCommand extends BaseBucketCommand
 
         $query = \CouchbaseN1qlQuery::fromString($queryString);
 
-        $rows = $this->getBucket()->query($query);
+        $rows = $this->query($queryString);
 
         $this->httpRequest->setAttribute($this->entity->getClassName(),  $this->removeRowHeadings($this->resultsToArray($rows, true)));
     }
